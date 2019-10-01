@@ -1,32 +1,32 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: arqhive
+title: arqhive's blog
+description: arqhive's blog.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
-show_hero: true
-
+  - 웹개발
+  - 리액트
+  - dev
+  - life
+  - react-native
+# email: hgystation@gmail.com
+disqus_username: arqhive
+show_hero: false
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: arqhive
+# facebook_username: facebook_userame
+# twitter_username: twitter_username
+instagram_username: _arqhive
+# linkedin_username: linkedin_username
+# medium_username: medium_username
 
 
 # Theme Settings
-themeColor: "#ff0a16"
+themeColor: "#87ceeb"
 primaryDark: "#141414"
-accentDark: "#ffffff"
+accentDark: "#333333"
 lightGray: "#f2f2f2"
 texts: "#333333"
 
@@ -34,15 +34,16 @@ texts: "#333333"
 # Posts Settings
 show_time_bar: true
 show_modal_on_exit: false
-show_modal_on_finish_post: true
-two_columns_layout: true
+show_modal_on_finish_post: false
+two_columns_layout: false
 
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-language: "en"
+# url: "https://arqhive.github.io" # the base hostname & protocol for your site
+url: 'https://arqhive.github.io'
+google_analytics: "UA-122091820-1"
+language: "ko"
 
 
 # Build settings
