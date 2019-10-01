@@ -2,41 +2,42 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="AH5bwGDDLEdN-eeLy87vNdN2l20ZUIpRQFKTAxNqRiY" />
 
     {% assign title = '' %}
     {% if page.layout == 'author' %}
-        {% assign title = page.display_name %}
+    {% assign title = page.display_name %}
     {% elsif page.title %}
-        {% assign title = page.title | append: " | " | append: site.name %}
+    {% assign title = page.title | append: " | " | append: site.name %}
     {% else %}
-        {% assign title = site.title %}
+    {% assign title = site.title %}
     {% endif %}
 
     {% assign image = '' %}
     {% if page.image %}
-        {% assign image = page.image %}
+    {% assign image = page.image %}
     {% else %}
-        {% assign image = "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url %}
+    {% assign image = "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url %}
     {% endif %}
 
     {% assign description = '' %}
     {% if page.description %}
-        {% assign description = page.description | strip_html | strip_newlines | truncate: 160 %}
+    {% assign description = page.description | strip_html | strip_newlines | truncate: 160 %}
     {% else %}
-        {% assign description = site.description %}
+    {% assign description = site.description %}
     {% endif %}
 
     {% assign url = '' %}
     {% if paginator.page_trail %}
-        {% assign url = paginator.first_page_path | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+    {% assign url = paginator.first_page_path | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
     {% else %}
-        {% assign url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+    {% assign url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
     {% endif %}
 
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}">
     {% if page.tags %}
-        <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}">
     {% endif %}
 
     <!-- Social: Twitter -->
@@ -45,7 +46,7 @@
     <meta name="twitter:description" content="{{ description }}">
     <meta property="twitter:image:src" content="{{ image }}">
     {% if site.twitter_username %}
-        <meta name="twitter:site" content="@{{ site.twitter_username }}">
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
     {% endif %}
 
     <!-- Social: Facebook / Open Graph -->
@@ -57,7 +58,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
-    
+
     <!-- Apple Touch Icons -->
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/icons/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-touch-icon-57x57.png" />
@@ -76,7 +77,7 @@
     <meta name="msapplication-square150x150logo" content="mediumtile.png" />
     <meta name="msapplication-wide310x150logo" content="widetile.png" />
     <meta name="msapplication-square310x310logo" content="largetile.png" />
-    
+
     <!-- Android Lolipop Theme Color -->
     <meta name="theme-color" content="{{ site.themeColor }}">
 
@@ -85,5 +86,6 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/styles.min.css' | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
+        href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 </head>
