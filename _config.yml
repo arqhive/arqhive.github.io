@@ -40,8 +40,8 @@ two_columns_layout: false
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://arqhive.github.io" # the base hostname & protocol for your site
-url: 'https://arqhive.github.io'
+# url: 'https://arqhive.github.io'
+url: ''
 google_analytics: "UA-122091820-1"
 language: "ko"
 
