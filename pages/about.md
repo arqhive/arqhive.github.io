@@ -1,18 +1,20 @@
 ---
 layout: page
 title: About
-description: Some description.
+description: About me.
 permalink: /about/
 menu: true
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+# 황규영 (Arqhive)
 
-# About
+프론트엔드 개발자. PHP, React를 거쳐 현재 React Native로 밥 먹는중.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+내가 만든 서비스가 사람들한테 유용했으면 좋겠다. (제발)
+
+E-mail: hgystaiton@gmail.com
+
+- 2018 ~ 2019 APIS (Oxchild PTE.LTD.) 오피셜 홈페이지, 웹 월렛, 익스플로러 사이트 개발 (React, CSS, Sass, Next.js...)
+- 2019.05 ~ (주)위밋 위밋플레이스 앱개발 (React Native)
+- 2019.10 ~ 블로그 arqhive 개설
+

@@ -118,7 +118,7 @@ yarn tsc --init --pretty --jsx react-native
 
 ```bash
 yarn add --dev @types/react @types/react-native
-``` 
+```
 
 이것으로 기본적인 프로젝트 설정을 마쳤습니다. 더 진행되는 내용은 옵션이므로 입맛에 따라 진행하시면 됩니다.
 
@@ -222,7 +222,7 @@ yarn add --dev prettier prettier-tslint tslint tslint-config-airbnb tslint-confi
 
 ## 절대 경로로 파일 불러오기
 
-파일의 경로가 깊어지면 
+파일의 경로가 깊어지면
 
 ```javascript
 import SomeComponents from '../../../../SomeComponents';
