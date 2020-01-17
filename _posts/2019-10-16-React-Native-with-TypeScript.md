@@ -240,7 +240,7 @@ import SomeComponents from 'components/SomeComponents'
 
 먼저 프로젝트 루트에 `src` 폴더를 만들고  아래의 패키지를 설치합니다.
 
-```javascript
+```bash
 yarn add --dev babel-plugin-module-resolver
 ```
 
